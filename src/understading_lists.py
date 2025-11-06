@@ -108,3 +108,21 @@ cars = ['bmw', 'audi', 'toyota', 'subaru']
 print(cars) #Salida: ['bmw', 'audi', 'toyota', 'subaru']
 cars.sort() 
 print(cars) #Salida: ['audi', 'bmw', 'subaru', 'toyota']
+"""
+Ejemplo 
+"""
+students = ["jesus", "joshue", "aldrix", "jen", "miguel", "africa"]
+print(students)
+desird_students = input ("Qué estudiante desas borrar de la lista?")
+students.remove(desird_students.strip().lower())
+print(students)
+print("Tú has eliminado ", desird_students)
+students.reverse()
+print(students)
+print(len(students))
+
+cars = ["kia", "ford", "tesla", "volvo", "chevrolet"]
+print(cars)
+print(sorted(cars))
+sorted_list = sorted(cars)
+print("Lista original: ",cars)
