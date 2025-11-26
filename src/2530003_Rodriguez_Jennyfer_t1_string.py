@@ -32,13 +32,13 @@ Validaciones:
 - Debe contener al menos dos palabras (por ejemplo, nombre y apellido).
 - No aceptar cadenas que sean solo espacios.
 """
-full_name = "Jennyfer Rodriguez   RUiz"
+full_name = "Jennyfer Rodriguez RUiz"
 print(full_name)
 Formatted_name = full_name.title()
 print(Formatted_name) # Salida 
-title_name = " ".join(Formatted_name for Formatted_name in Formatted_name)
-print(title_name)
 
+initials = ".".join([word[0].upper() for word in full_name.split()])
+print(initials) 
 # Problem 2: Simple email validator (structure + domain)
 """
 Descripción:

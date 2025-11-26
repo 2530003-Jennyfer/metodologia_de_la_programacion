@@ -37,6 +37,41 @@ print('\n Looping though values')
 for value in alien_0.values():
     print(value)
 
+## Diccionarios 
+covenant_grunt = {
+    "color": 'orange',
+    'weapon': 'plasma-gun',
+    'armament': 'plasma-grande',
+    'health': 2,
+}
 
+covenant_elite = {
+    "color": 'blue',
+    'weapon': 'plasma-gun',
+    'armament': 'plasma-grande',
+    'health': 7,
+}
 
-
+covenant_jackal = {
+    "color": 'gray',
+    'weapon': 'plasma-gun',
+    'armament': 'plasma-grande',
+    'health': 5,
+}
+convenants= [
+    covenant_grunt,
+    covenant_elite,
+    covenant_jackal
+]
+for convenant in convenants:
+    print('\n', convenant)
+    for key, value in convenant.items():
+        print(key, value)
+# Lista de dicionario 
+sutudents = {
+    'santiago': ['reprobado', 'prepa1', 'rebelde']
+    'jorge': ['aprobado', 'cbtis271', 'goleador']
+    'Gabriel': ['aprobado', '119muerte', 'forite']
+}
+# Diccionario en diccionario 
+## Estudiar el meteodo get en el diccionario
