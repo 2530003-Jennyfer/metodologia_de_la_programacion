@@ -24,3 +24,7 @@ while True:
 
     except ValueError:
         print("Se ha introduciodo una variable no valida")
+    except KeyboardInterrupt :
+        print("\nPrograma terminado por el usuario")
+        break
+print("Saliste del while")

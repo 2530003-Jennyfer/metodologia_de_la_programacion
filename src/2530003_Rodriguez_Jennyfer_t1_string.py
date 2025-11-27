@@ -36,7 +36,6 @@ full_name = "Jennyfer Rodriguez RUiz"
 print(full_name)
 Formatted_name = full_name.title()
 print(Formatted_name) # Salida 
-
 initials = ".".join([word[0].upper() for word in full_name.split()])
 print(initials) 
 # Problem 2: Simple email validator (structure + domain)
@@ -62,7 +61,14 @@ Validaciones:
 
 Operaciones clave sugeridas: strip(), count(), find(), slicing, in, not in.
 """
-email_text = 'jenny@gmail.com'
+print("Simple email validator")
+email_text = "jen nyfer@gmailcom"
+valid_email = True
+valid_email1 = False
+if "." and "@" in email_text:
+  print(valid_email)
+ else " " in email_text:
+  print(valid_email1)
 
 # Problem 3: Palindrome checker (ignoring spaces and case)
 """
