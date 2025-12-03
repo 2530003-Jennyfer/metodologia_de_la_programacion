@@ -6,7 +6,7 @@
  Se utilizan los () para definir una tupla.
 """
 rectangle = (200, 50) #(largo, ancho)
-print(rectangle[0])
+# print(rectangle[0])
 print(rectangle[1])
 #for mesure in rectangle_mesurement:
    # print(mesure)

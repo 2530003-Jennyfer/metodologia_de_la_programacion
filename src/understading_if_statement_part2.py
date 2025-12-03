@@ -57,10 +57,10 @@ guisos_disponibles = ['salsa verde','deshebrada','mole']
 guisos_a_ordenar = ['deshebrada', 'caldo de iguana']
 print("¿Que guisos desea ordenar?")
 for guis in guisos_a_ordenar:
-    print(f'deseo {guisos_a_ordenar}')
+    print(f'deseo  {guisos_a_ordenar}')
     if guis in guisos_disponibles:
         print(f"si tenemos {guis}")
     else:
         print("No tenemos ese guiso")
-print("Realizando pedido...")
+print("Realizando pedido...") 
 

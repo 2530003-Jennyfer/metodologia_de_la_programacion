@@ -58,7 +58,7 @@ print(user not in banned_users)
 #can_edit =False
 
 """
- If statment
+  
  if condition: 
     do something 
 if condition: 

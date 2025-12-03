@@ -29,14 +29,18 @@ gretting_christopher()
     actions
 """
 # Ejemplo de una función que genere el nombre completo de una persona y lo regrese.
+
 def create_full_name(first_name, last_name, middle_name=""):
     full_name = f"{first_name.strip()} {middle_name.strip()} {last_name.strip()}".title()
     return full_name
-first_name = input("Dame tu primer nombre: ")
-middle_name = input("Dame tu segundo nombre: (Si no tienes segundo nombre dar enter) ")
-last_name= input("Dame tu apellido: ")
+user_first_name = input("Dame tu primer nombre: ")
+user_middle_name = input("Dame tu segundo nombre: (Si no tienes segundo nombre dar enter) ")
+user_last_name= input("Dame tu apellido: ")
+# argumentos posicionales
 gretting_fullname = create_full_name(
-    first_name.lower(),
-    last_name.lower(),
-    middle_name.lower())
+    user_first_name.lower(),
+    user_last_name.lower(),
+    user_middle_name.lower())
+# argumento llave
+genere
 print(gretting_fullname)
