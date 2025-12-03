@@ -4,6 +4,7 @@ Jennyfer Rodriguez Ruiz
 2530003
  IM-103
 """
+"""
 Resumen ejecutivo 
 Una cadena en Python es una secuencia de texto (tipo 'str') y es inmutable: cualquier transformación
 devuelve una nueva cadena. Las operaciones básicas incluyen concatenación (+), repetición (*),
@@ -397,4 +398,25 @@ Normalizing before comparing avoids false negatives (e.g., "Email@Example.com" v
 Designing validations (non-empty, format checks) avoids storing unnecessary data and subsequent errors.
 String immutability means that slicing and modifications produce new strings;
 this is efficient and safe if handled correctly.
+"""
+#Referencias
+"""
+1) Python Documentation – Built-in Types: Text Sequence Type — str
+   https://docs.python.org/3/library/stdtypes.html#text-sequence-type-str
+
+2) PEP 8 – Style Guide for Python Code (Naming conventions)
+   https://peps.python.org/pep-0008/
+
+3) Real Python – “Working With Strings in Python”
+   https://realpython.com/python-strings/
+
+4) W3Schools – Python Strings
+   https://www.w3schools.com/python/python_strings.asp
+
+5) Automate the Boring Stuff with Python – Input Validation Basics
+   https://automatetheboringstuff.com/
+
+6) GeeksForGeeks – String Methods in Python
+   https://www.geeksforgeeks.org/python-string-methods/
+
 """
