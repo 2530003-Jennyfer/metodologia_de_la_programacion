@@ -1,9 +1,10 @@
-
-# Name: Jennyfer Rodriguez Ruiz
-# Student ID: 2530003
-# Group: 1-3
-
 """
+Manejo de números y booleanos en Python
+ Jennyfer Rodriguez Ruiz
+  2530003
+  1-3
+
+
  EXECUTIVE SUMMARY
 In Python, integers (int) represent whole numbers, while floats represent
 numbers with decimals. Booleans (True/False) are logical values produced
